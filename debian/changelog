@@ -1,3 +1,18 @@
+adpi-utils-backend-spidev (1.0.3) bookworm; urgency=medium
+
+  * adpi-init.sh: Change SECTION calls
+  * Add initialization service and rules
+  * debian/control
+    - Add Uploaders
+    - Bump Standards-Version to 4.6.2
+  * debian/install
+    - Add adpi-utils-backend-spidev-init@.service
+    - Add 85-adpi-utils-backend-spidev.rules
+  * debian/prerm: Remove old service
+  * debian/service: Deleted
+
+ -- Yuta Kiyonaga <kiyonaga@mechatrax.com>  Tue, 13 Jun 2023 09:03:08 +0000
+
 adpi-utils-backend-spidev (1.0.2) bullseye; urgency=medium
 
   * debian/compat: Deleted
