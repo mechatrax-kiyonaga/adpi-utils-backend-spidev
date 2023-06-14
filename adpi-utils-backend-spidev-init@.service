@@ -1,7 +1,7 @@
 [Unit]
 Description=Initialize ADPi on %i
 DefaultDependencies=no
-Requires=dev-%i.device dev-i2c\x2d1.device
+BindsTo=dev-%i.device dev-i2c\x2d1.device
 After=dev-%i.device dev-i2c\x2d1.device
 
 [Service]
