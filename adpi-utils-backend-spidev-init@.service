@@ -7,4 +7,4 @@ After=dev-%i.device dev-i2c\x2d1.device
 [Service]
 Type=oneshot
 ExecStart=/usr/lib/adpi-utils-backend-spidev/adpi-init.sh %i
-
+RemainAfterExit=yes
